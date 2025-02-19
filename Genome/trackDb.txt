@@ -11,7 +11,7 @@ showSubtrackColorOnUi on
 autoScale on
 windowingFunction maximum
 maxHeightPixels 125:50:16
-smoothingWindow 16
+smoothingWindow 12
 color 0,0,0
 	
 	track controls_D10_TSS

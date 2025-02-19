@@ -9,7 +9,7 @@ visibility full
 aggregate none
 showSubtrackColorOnUi on
 autoScale on
-windowingFunction max
+windowingFunction maximum
 maxHeightPixels 125:50:16
 smoothingWindow 16
 color 0,0,0

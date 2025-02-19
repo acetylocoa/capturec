@@ -9,9 +9,9 @@ visibility full
 aggregate none
 showSubtrackColorOnUi on
 autoScale on
-windowingFunction maximum
-priority 1
-maxHeightPixels 125:50:16
+windowingFunction mean
+maxHeightPixels 128:50:8
+smoothingWindow 16
 color 0,0,0
 	
 	track controls_D10_TSS

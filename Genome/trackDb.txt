@@ -15,7 +15,7 @@ maxHeightPixels 125:50:16
 color 0,0,0
 	
 	track controls_D10_TSS
-	bigDataUrl	https://drive.usercontent.google.com/download?id=1OLYd6n8bxnOg7sHofZAzZoACjtDZL8-p/
+	bigDataUrl	https://github.com/acetylocoa/capturec/raw/main/controls_D10_TSS.wig.bw
 	type bigWig 0 150
 	shortLabel controls_D10_TSS
 	longLabel Capture_C_controls_D10_TSS
@@ -24,7 +24,7 @@ color 0,0,0
 	priority 1
 
 	track controls_D0_TSS
-	bigDataUrl	https://drive.usercontent.google.com/download?id=1p54fOTkO3ntFhj7k4SFnbVHxHg-WlRqq
+	bigDataUrl	https://github.com/acetylocoa/capturec/raw/main/controls_D0_TSS.wig.bw
 	type bigWig 0 150
 	shortLabel controls_D0_TSS
 	longLabel Capture_C_controls_D0_TSS
@@ -33,7 +33,7 @@ color 0,0,0
 	priority 2
 
 	track substract_D10_D0_TSS
-	bigDataUrl	https://drive.usercontent.google.com/download?id=1emJ3cny_BiE6gUAZL5qF21Rwg1M1OH92
+	bigDataUrl	https://github.com/acetylocoa/capturec/raw/main/substract_D10_D0_TSS.wig.bw
 	type bigWig 0 150
 	shortLabel subst_controls_D10_D0_TSS
 	longLabel Capture_C_subst_controls_D10_D0_TSS
@@ -42,7 +42,7 @@ color 0,0,0
 	priority 3
 	
 	track d102_D10_TSS
-	bigDataUrl	https://drive.usercontent.google.com/download?id=1iIlghkD4YW54W05RPxhw3nFwSYYxqgja
+	bigDataUrl	https://github.com/acetylocoa/capturec/raw/main/mean_d102_D10_TSS.wig.bw
 	type bigWig 0 150
 	shortLabel d102_D10_TSS
 	longLabel Capture_C_d102_D10_TSS
@@ -51,7 +51,7 @@ color 0,0,0
 	priority 4
 
 	track d102_D0_TSS
-	bigDataUrl	https://drive.usercontent.google.com/download?id=1OEhuTbBq8DdT1uBXKNE6u3qT0Feg948i
+	bigDataUrl	https://github.com/acetylocoa/capturec/raw/main/mean_d102_D0_TSS.wig.bw
 	type bigWig 0 150
 	shortLabel d102_D0_TSS
 	longLabel Capture_C_d102_D0_TSS
@@ -60,7 +60,7 @@ color 0,0,0
 	priority 5
 
 	track substract_dE102_D10_D0_TSS
-	bigDataUrl	https://drive.usercontent.google.com/download?id=1SFf2UvOabhwdGzVQmjfGhBMPoQrZ3xbK
+	bigDataUrl	https://github.com/acetylocoa/capturec/raw/main/substract_dE102_D10_vs_D0_vE102.wig.bw
 	type bigWig 0 150
 	shortLabel subst_dE102_D10_D0_TSS
 	longLabel Capture_C_dE102_controls_D10_D0_TSS

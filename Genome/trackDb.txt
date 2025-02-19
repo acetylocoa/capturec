@@ -1,0 +1,69 @@
+track Capture_C_d10_d0_del
+container multiWig
+type bigWig 0 150
+noInherit on
+shortLabel Capture_C_d10_d0_del
+longLabel Capture_C_d10_d0_del_e102_control
+configurable on
+visibility full
+aggregate none
+showSubtrackColorOnUi on
+autoScale on
+windowingFunction maximum
+priority 1
+maxHeightPixels 125:50:16
+color 0,0,0
+	
+	track controls_D10_TSS
+	bigDataUrl	https://drive.usercontent.google.com/download?id=1OLYd6n8bxnOg7sHofZAzZoACjtDZL8-p/
+	type bigWig 0 150
+	shortLabel controls_D10_TSS
+	longLabel Capture_C_controls_D10_TSS
+	parent	Capture_C_d10_d0_del
+	color 0,0,0
+	priority 1
+
+	track controls_D0_TSS
+	bigDataUrl	https://drive.usercontent.google.com/download?id=1p54fOTkO3ntFhj7k4SFnbVHxHg-WlRqq
+	type bigWig 0 150
+	shortLabel controls_D0_TSS
+	longLabel Capture_C_controls_D0_TSS
+	parent	Capture_C_d10_d0_del
+	color 0,0,0
+	priority 2
+
+	track substract_D10_D0_TSS
+	bigDataUrl	https://drive.usercontent.google.com/download?id=1emJ3cny_BiE6gUAZL5qF21Rwg1M1OH92
+	type bigWig 0 150
+	shortLabel subst_controls_D10_D0_TSS
+	longLabel Capture_C_subst_controls_D10_D0_TSS
+	parent	Capture_C_d10_d0_del
+	color 0,0,0
+	priority 3
+	
+	track d102_D10_TSS
+	bigDataUrl	https://drive.usercontent.google.com/download?id=1iIlghkD4YW54W05RPxhw3nFwSYYxqgja
+	type bigWig 0 150
+	shortLabel d102_D10_TSS
+	longLabel Capture_C_d102_D10_TSS
+	parent	Capture_C_d10_d0_del
+	color 0,0,0
+	priority 4
+
+	track d102_D0_TSS
+	bigDataUrl	https://drive.usercontent.google.com/download?id=1OEhuTbBq8DdT1uBXKNE6u3qT0Feg948i
+	type bigWig 0 150
+	shortLabel d102_D0_TSS
+	longLabel Capture_C_d102_D0_TSS
+	parent	Capture_C_d10_d0_del
+	color 0,0,0
+	priority 5
+
+	track substract_dE102_D10_D0_TSS
+	bigDataUrl	https://drive.usercontent.google.com/download?id=1SFf2UvOabhwdGzVQmjfGhBMPoQrZ3xbK
+	type bigWig 0 150
+	shortLabel subst_dE102_D10_D0_TSS
+	longLabel Capture_C_dE102_controls_D10_D0_TSS
+	parent	Capture_C_d10_d0_del
+	color 0,0,0
+	priority 6

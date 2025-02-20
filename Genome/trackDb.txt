@@ -11,7 +11,7 @@ showSubtrackColorOnUi on
 autoScale on
 windowingFunction maximum
 maxHeightPixels 125:50:16
-smoothingWindow 12
+smoothingWindow 10
 color 0,0,0
 	
 	track controls_D10_TSS
@@ -67,3 +67,59 @@ color 0,0,0
 	parent	Capture_C_d10_d0_del
 	color 0,0,0
 	priority 6
+
+	track d2_D10_TSS
+	bigDataUrl	https://github.com/acetylocoa/capturec/raw/main/mean_d2_D10_TSS.wig.bw
+	type bigWig 0 150
+	shortLabel d2_D10_TSS
+	longLabel Capture_C_d2_D10_TSS
+	parent	Capture_C_d10_d0_del
+	color 0,0,0
+	priority 7
+
+	track d2_D0_TSS
+	bigDataUrl	https://github.com/acetylocoa/capturec/raw/main/mean_d2_D0_TSS.wig.bw
+	type bigWig 0 150
+	shortLabel d2_D0_TSS
+	longLabel Capture_C_d2_D0_TSS
+	parent	Capture_C_d10_d0_del
+	color 0,0,0
+	priority 8
+
+	track substract_dE2_D10_D0_TSS
+	bigDataUrl	https://github.com/acetylocoa/capturec/raw/main/substract_dE2_D10_vs_D0_TSS.wig.bw
+	type bigWig 0 150
+	shortLabel subst_dE2_D10_D0_TSS
+	longLabel Capture_C_dE2_D10_D0_TSS
+	parent	Capture_C_d10_d0_del
+	color 0,0,0
+	priority 9
+
+	track d2_D10_E102
+	bigDataUrl	https://github.com/acetylocoa/capturec/raw/main/mean_d2_D10_E102.wig.bw
+	type bigWig 0 150
+	shortLabel d2_D10_E102
+	longLabel Capture_C_d2_D10_E102
+	parent	Capture_C_d10_d0_del
+	color 0,0,0
+	priority 10
+
+	track d2_D0_E102
+	bigDataUrl	https://github.com/acetylocoa/capturec/raw/main/mean_d2_D0_E102.wig.bw
+	type bigWig 0 150
+	shortLabel d2_D0_E102
+	longLabel Capture_C_d2_D0_E102
+	parent	Capture_C_d10_d0_del
+	color 0,0,0
+	priority 11
+
+	track substract_dE2_D10_D0_E102
+	bigDataUrl	https://github.com/acetylocoa/capturec/raw/main/substract_dE2_D10_vs_D0_E102.wig.bw
+	type bigWig 0 150
+	shortLabel subst_dE2_D10_D0_E102
+	longLabel Capture_C_dE2_D10_D0_E102
+	parent	Capture_C_d10_d0_del
+	color 0,0,0
+	priority 12
+
+
